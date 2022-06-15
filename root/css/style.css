@@ -79,16 +79,16 @@ nav .nav-list li a:hover{
     transition: .3s;
 }
 .container{
-    padding-top: 200px;
+    padding-top: 100px;
 }
 .container .main-text{
-    margin-bottom: 40px;
+    margin-bottom: 17px;
 }
 .container .main-text h1{
     color: white;
     font-weight: 700;
     line-height: 1.2;
-    font-size: 50px;
+    font-size: 47px;
 }
 span
 {
@@ -96,12 +96,12 @@ span
 }
 .container .main-text h3{
     color: white;
-    font-size: 35px;
+    font-size: 17px;
     font-weight: 400;
 }
 .container .main-text p{
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     max-width: 100%;
     width: 440px;
     margin-bottom: 30px;
