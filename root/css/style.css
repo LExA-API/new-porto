@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    width: 1280px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.porto{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: url(../css/images/background.jpg) rgba(0, 0, 0, 0.836);
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+}
+nav .navbar{
+    width: 35px;
+    height: 24px;
+    right: 12%;
+    top: 60px;
+    z-index: 5;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+nav .navbar span{
+    display: block;
+    background: red;
+    width: 100%;
+    height: 3px;
+    transition: .3s;
+    transition-property: transform,opacity;
+}
+nav .navbar span:nth-child(2){
+    margin: 7px 0px;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid red;
+    padding: 9px 10px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: red;
+    font-weight: 500;
+    align-items: center;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: white;
+    margin-left: 55px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+nav .nav-list li a:hover{
+    color: red;
+    transition: .3s;
+}
+.container{
+    padding-top: 100px;
+}
+.container .main-text{
+    margin-bottom: 40px;
+}
+.container .main-text h1{
+    color: white;
+    font-weight: 700;
+    line-height: 1.2;
+}
+span
+{
+    color: red;
+}
+.container .main-text h3{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+.container .main-text p{
+    color: white;
+    font-size: 15px;
+    max-width: 100%;
+    width: 440px;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    position: relative;
+}
+@media screen and (max-width:930px) {
+    nav .navbar{
+        display: block;
+    }
+    .click{
+        top: 46px;
+    }
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2){
+        opacity: 0;
+        margin: 0;
+    }
+    nav .nav-list{
+        position: fixed;
+        top: 90px;
+        right: -100%;
+        bottom: 0;
+        width: 60%;
+        height: 85%;
+        background: black;
+        z-index: 2;
+        padding: 6% 9%;
+        transition: .3s right;
+        border-radius: 8px;
+    }
+    nav .nav-list li{
+        display: block;
+
+    }
+    nav .nav-list li a{
+        text-align: center;
+        display: block;
+        margin-left: 0;
+    }
+    nav .nav-list.open{
+        right: 0;
+
+}
+
+}
