@@ -79,7 +79,7 @@ nav .nav-list li a:hover{
     transition: .3s;
 }
 .container{
-    padding-top: 300px;
+    padding-top: 200px;
 }
 .container .main-text{
     margin-bottom: 40px;
@@ -88,7 +88,7 @@ nav .nav-list li a:hover{
     color: white;
     font-weight: 700;
     line-height: 1.2;
-    font-size: 47px;
+    font-size: 60px;
 }
 span
 {
@@ -96,12 +96,12 @@ span
 }
 .container .main-text h3{
     color: white;
-    font-size: 17px;
+    font-size: 35px;
     font-weight: 400;
 }
 .container .main-text p{
     color: white;
-    font-size: 15px;
+    font-size: 30px;
     max-width: 100%;
     width: 440px;
     margin-bottom: 30px;
