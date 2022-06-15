@@ -107,7 +107,7 @@ span
     line-height: 1.5;
     position: relative;
 }
-@media screen and (max-width:930px) {
+@media screen and (max-width:1312px) {
     nav .navbar{
         display: block;
     }
